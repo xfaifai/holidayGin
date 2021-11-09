@@ -3,6 +3,8 @@ Get the day is holiday or not.
 
 [Only support Chinese Mainland.]
 
+[中文文档](https://github.com/xfaifai/holidayGin/blob/main/README_ZH.md)
+
 - ## Usage  
 Running (default port 8080)
 ````

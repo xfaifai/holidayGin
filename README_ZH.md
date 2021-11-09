@@ -3,6 +3,8 @@
 
 [只支持中国大陆]
 
+[英文文档](https://github.com/xfaifai/holidayGin/blob/main/README.md)
+
 - ## Usage  
 运行 (默认端口：8080)
 ````
