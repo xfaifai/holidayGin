@@ -52,11 +52,11 @@ func main() {
 		day := t.Format("0102")
 		value,ok := jsonData[day]
 		if ok {
-			var res map[string]interface{}
-			res[date] = value
 			c.JSON(200,gin.H{
 				"status":"success",
-				"data": res,
+				"data": gin.H{
+					date:value,
+				},
 			})
 			return
 		}
