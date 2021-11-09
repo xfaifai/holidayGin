@@ -1,10 +1,10 @@
 # holidayGin
-Get the day is holiday or not.
+判断指定日期是否节假日。
 
-[Only support Chinese Mainland.]
+[只支持中国大陆]
 
 - ## Usage  
-Running (default port 8080)
+运行 (默认端口：8080)
 ````
 git clone https://github.com/xfaifai/holidayGin.git
 
@@ -13,17 +13,17 @@ go mod tidy
 go run main.go
 ````
 
-Request
+请求
 ````
 http://localhost:8080/YYYYMMDD 
 
-YYYYMMDD is which day you need.
+「YYYYMMDD」是你希望得到结果的日期。
 
-Example:
+例子:
 http://localhost:8080/20220101 
 ````
 
-Response
+响应
 ````
 {
     "data": {
@@ -32,10 +32,10 @@ Response
     "status": "success"
 }
 
-Type:
-0 Working day.
-1 Double rest day
-2 Triple rest day
+类型:
+0 工作日(正常工资)
+1 休息日(双倍工资)
+2 节假日(三倍工资)
 ````
 
 
